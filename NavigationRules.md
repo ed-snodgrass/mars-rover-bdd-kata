@@ -1,5 +1,5 @@
 ### Rule: The command M moves the rover forward one space in the direction it is facing
-#### Example: The one where the rover moves forward from the East
+#### Example: The one where the rover moves facing East
 * context:
   ```
   ..
@@ -12,7 +12,7 @@
   ..
   .>
   ```
-#### Example: The one where the rover moves forward from the North
+#### Example: The one where the rover moves facing North
 * context:
   ```
   ..
@@ -25,7 +25,7 @@
   ^.
   ..
   ```
-#### Example: The one where the rover moves forward from the West
+#### Example: The one where the rover moves facing West
 * context:
   ```
   ..
@@ -38,7 +38,7 @@
   ..
   <.
   ```
-#### Example: The one where the rover moves forward from the South
+#### Example: The one where the rover moves facing South
 * context:
   ```
   v.
@@ -176,7 +176,7 @@
   ```
               
 ### Rule: The rover cannot move over an edge
-#### Example: The one where the rover hits the East edge
+#### Example: The one where the rover is at the East edge
 * context:
   ```
   ..
@@ -189,7 +189,7 @@
   ..
   .>
   ```
-#### Example: The one where the rover hits the North edge
+#### Example: The one where the rover is at the North edge
 * context:
   ```
   ^.
@@ -202,7 +202,7 @@
   ^.
   ..
   ```
-#### Example: The one where the rover hits the West edge
+#### Example: The one where the rover is at the West edge
 * context:
   ```
   ..
@@ -215,7 +215,7 @@
   ..
   <.
   ```
-#### Example: The one where the rover hits the South edge
+#### Example: The one where the rover is at the South edge
 * context:
   ```
   ..
