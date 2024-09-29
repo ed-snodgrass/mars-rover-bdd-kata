@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "cucumber": "cucumber-js --config config/cucumber.json",
+    "cucumber-navigation": "cucumber-js --config config/cucumber.json --tags '@navigation'",
+    "cucumber-forward": "cucumber-js --config config/cucumber.json --tags '@forward'",
+    "cucumber-rotation": "cucumber-js --config config/cucumber.json --tags '@rotation'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

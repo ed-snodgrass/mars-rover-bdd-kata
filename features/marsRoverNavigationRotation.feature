@@ -1,3 +1,4 @@
+@rotation @navigation
 Feature: Mars Rover Navigation Rotation
 
   Rule: L rotates the rover 90 degrees to the left

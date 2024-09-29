@@ -1,3 +1,4 @@
+@forward @navigation
 Feature: Mars Rover Navigation Forward Movement
 
   Rule: For any direction the command M moves the rover in that direction 1 space
