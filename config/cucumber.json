@@ -1,6 +1,9 @@
 {
   "default": {
     "parallel": 2,
-    "format": ["progress-bar" ,"html:out/cucumber-report.html"]
+    "format": [
+      "progress-bar",
+      ["html", "./out/cucumber-report.html"]
+    ]
   }
 }
